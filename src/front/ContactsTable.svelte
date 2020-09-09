@@ -18,6 +18,7 @@
 	async function getContacts() {
 
 		console.log("Fetching contacts...");
+		//const res = await fetch("https://sos1920-l142.herokuapp.com/api/v1/contacts");
 		const res = await fetch("/api/v1/contacts");
 
 		if (res.ok) {

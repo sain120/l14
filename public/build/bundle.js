@@ -2732,7 +2732,7 @@ var app = (function () {
     	return block;
     }
 
-    // (61:1) {:then contacts}
+    // (62:1) {:then contacts}
     function create_then_block(ctx) {
     	let current;
 
@@ -2780,14 +2780,14 @@ var app = (function () {
     		block,
     		id: create_then_block.name,
     		type: "then",
-    		source: "(61:1) {:then contacts}",
+    		source: "(62:1) {:then contacts}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (76:10) <Button outline  color="primary" on:click={insertContact}>
+    // (77:10) <Button outline  color="primary" on:click={insertContact}>
     function create_default_slot_2(ctx) {
     	let t;
 
@@ -2807,14 +2807,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(76:10) <Button outline  color=\\\"primary\\\" on:click={insertContact}>",
+    		source: "(77:10) <Button outline  color=\\\"primary\\\" on:click={insertContact}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (86:10) <Button outline color="danger" on:click="{deleteContact(contact.name)}">
+    // (87:10) <Button outline color="danger" on:click="{deleteContact(contact.name)}">
     function create_default_slot_1(ctx) {
     	let t;
 
@@ -2834,14 +2834,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(86:10) <Button outline color=\\\"danger\\\" on:click=\\\"{deleteContact(contact.name)}\\\">",
+    		source: "(87:10) <Button outline color=\\\"danger\\\" on:click=\\\"{deleteContact(contact.name)}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (79:4) {#each contacts as contact}
+    // (80:4) {#each contacts as contact}
     function create_each_block(ctx) {
     	let tr;
     	let td0;
@@ -2893,12 +2893,12 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t6 = space();
     			attr_dev(a, "href", a_href_value = "#/contact/" + /*contact*/ ctx[8].name);
-    			add_location(a, file$2, 81, 7, 1630);
-    			add_location(td0, file$2, 80, 6, 1618);
-    			add_location(td1, file$2, 83, 6, 1702);
-    			add_location(td2, file$2, 84, 6, 1733);
-    			add_location(td3, file$2, 85, 6, 1764);
-    			add_location(tr, file$2, 79, 5, 1607);
+    			add_location(a, file$2, 82, 7, 1713);
+    			add_location(td0, file$2, 81, 6, 1701);
+    			add_location(td1, file$2, 84, 6, 1785);
+    			add_location(td2, file$2, 85, 6, 1816);
+    			add_location(td3, file$2, 86, 6, 1847);
+    			add_location(tr, file$2, 80, 5, 1690);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -2954,14 +2954,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(79:4) {#each contacts as contact}",
+    		source: "(80:4) {#each contacts as contact}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (62:2) <Table bordered>
+    // (63:2) <Table bordered>
     function create_default_slot(ctx) {
     	let thead;
     	let tr0;
@@ -3047,21 +3047,21 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(th0, file$2, 64, 5, 1190);
-    			add_location(th1, file$2, 65, 5, 1209);
-    			add_location(th2, file$2, 66, 5, 1229);
-    			add_location(th3, file$2, 67, 5, 1249);
-    			add_location(tr0, file$2, 63, 4, 1180);
-    			add_location(thead, file$2, 62, 3, 1168);
-    			add_location(input0, file$2, 72, 9, 1317);
-    			add_location(td0, file$2, 72, 5, 1313);
-    			add_location(input1, file$2, 73, 9, 1370);
-    			add_location(td1, file$2, 73, 5, 1366);
-    			add_location(input2, file$2, 74, 9, 1424);
-    			add_location(td2, file$2, 74, 5, 1420);
-    			add_location(td3, file$2, 75, 5, 1474);
-    			add_location(tr1, file$2, 71, 4, 1303);
-    			add_location(tbody, file$2, 70, 3, 1291);
+    			add_location(th0, file$2, 65, 5, 1273);
+    			add_location(th1, file$2, 66, 5, 1292);
+    			add_location(th2, file$2, 67, 5, 1312);
+    			add_location(th3, file$2, 68, 5, 1332);
+    			add_location(tr0, file$2, 64, 4, 1263);
+    			add_location(thead, file$2, 63, 3, 1251);
+    			add_location(input0, file$2, 73, 9, 1400);
+    			add_location(td0, file$2, 73, 5, 1396);
+    			add_location(input1, file$2, 74, 9, 1453);
+    			add_location(td1, file$2, 74, 5, 1449);
+    			add_location(input2, file$2, 75, 9, 1507);
+    			add_location(td2, file$2, 75, 5, 1503);
+    			add_location(td3, file$2, 76, 5, 1557);
+    			add_location(tr1, file$2, 72, 4, 1386);
+    			add_location(tbody, file$2, 71, 3, 1374);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, thead, anchor);
@@ -3188,14 +3188,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(62:2) <Table bordered>",
+    		source: "(63:2) <Table bordered>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (59:18)    Loading contacts...  {:then contacts}
+    // (60:18)    Loading contacts...  {:then contacts}
     function create_pending_block(ctx) {
     	let t;
 
@@ -3218,7 +3218,7 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(59:18)    Loading contacts...  {:then contacts}",
+    		source: "(60:18)    Loading contacts...  {:then contacts}",
     		ctx
     	});
 
@@ -3247,7 +3247,7 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			info.block.c();
-    			add_location(main, file$2, 56, 0, 1079);
+    			add_location(main, file$2, 57, 0, 1162);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3308,6 +3308,8 @@ var app = (function () {
 
     	async function getContacts() {
     		console.log("Fetching contacts...");
+
+    		//const res = await fetch("https://sos1920-l142.herokuapp.com/api/v1/contacts");
     		const res = await fetch("/api/v1/contacts");
 
     		if (res.ok) {
